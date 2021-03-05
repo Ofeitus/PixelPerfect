@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: GothamRounded-Bold;
+    src: url(fonts/GothamRounded-Bold.otf);
+}
+
+@font-face {
+    font-family: GothamRounded-Medium;
+    src: url(fonts/GothamRounded-Medium.otf);
+}
+
+@font-face {
+    font-family: GothamRounded-Light;
+    src: url(fonts/GothamRounded-Light.otf);
+}
+
+@font-face {
+    font-family: GothamRounded-Book;
+    src: url(fonts/GothamRounded-Book.otf);
+}
+
+@font-face {
+    font-family: MyriadPro;
+    src: url(fonts/MyriadPro.otf);
+}
+
+body {
+    width: 1280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.hero {
+    height: 745px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(content/yourLifeBack.png);
+}
+
+.header__container {
+    height: 129px;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: flex-end;
+}
+
+.navbar__item {
+    margin: 0 32px;
+    float: left;
+}
+
+.navbar__item a {
+    font-size: 16px;
+    letter-spacing: 2.5px;
+    color: #ffffff;
+    font-family: "GothamRounded-Bold";
+    text-decoration: none;
+}
+
+.logo {
+    margin: 0 67px -6px 67px;
+}
+
+.yourlife {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.yourlife h2 {
+    font-size: 36px;
+    letter-spacing: 5.4px;
+    color: #ffffff;
+    font-family: "GothamRounded-Bold";
+    margin-left: 7px;
+}
+
+.yourlife p {
+    font-size: 16px;
+    letter-spacing: 3.7px;
+    color: #ffffff;
+    font-family: "MyriadPro";
+    margin: 7px 0 0 2px;
+}
+
+.yourlife button {
+    width: 166px;
+    height: 49px;
+    display: block;
+    background: #16a085;
+    border: none;
+    border-radius: 3px;
+    margin-top: 25px;
+}
+
+.yourlife button p {
+    font-size: 11px;
+    letter-spacing: 2.4px;
+    color: #ffffff;
+    font-family: "GothamRounded-Medium";
+    margin-bottom: 4px;
+}
+
+.socialnetworks {
+    margin-bottom: 22px;
+}
+
+.socialnetworks img {
+    margin: 0 6px;
+}
+
+.represent {
+    position: relative;
+    height: 492px;
+    background: #f5f6f7;
+}
+
+.represent__container {
+    position: relative;
+    width: 400px;
+    top: 109px;
+    left: 122px;
+}
+
+.represent img {
+    position: absolute;
+    top: 91px;
+    left: 510px;
+}
+
+.represent h3 {
+    font-size: 18px;
+    letter-spacing: 2.7px;
+    color: #16a085;
+    font-family: "GothamRounded-Bold";
+    margin-left: 7px;
+}
+
+.represent pre {
+    font-size: 11px;
+    letter-spacing: 2.3px;
+    line-height: 24px;
+    color: #373737;
+    font-family: "GothamRounded-Book";
+    margin: 38px 0 0 6px;
+}
+
+.represent pre strong {
+    letter-spacing: 2.5px;
+}
+
+.represent button {
+    width: 192px;
+    height: 51px;
+    display: block;
+    background: #16a085;
+    border: none;
+    border-radius: 3px;
+    margin: 17px 0 0 7px;
+}
+
+.represent button p {
+    font-size: 11px;
+    letter-spacing: 2.4px;
+    color: #ffffff;
+    font-family: "GothamRounded-Medium";
+    margin: 5px 0 0 2px;
+}
+
+.design {
+    position: relative;
+    height: 558px;
+    z-index: 2;
+    background: #ffffff;
+}
+
+.design__container {
+    position: relative;
+    
+}
+
+.design img {
+    position: absolute;
+    top: 146px;
+    left: 124px;
+}
+
+.design h3 {
+    font-size: 18px;
+    letter-spacing: 2.7px;
+    color: #16a085;
+    font-family: "GothamRounded-Bold";
+    margin-left: 7px;
+}
+
+.design pre {
+    font-size: 11px;
+    letter-spacing: 2.3px;
+    line-height: 24px;
+    color: #373737;
+    font-family: "GothamRounded-Book";
+    margin: 38px 0 0 6px;
+}
+
+.design pre strong {
+    letter-spacing: 2.5px;
+}
+
+.design button {
+    width: 192px;
+    height: 51px;
+    display: block;
+    background: #16a085;
+    border: none;
+    border-radius: 3px;
+    margin: 17px 0 0 7px;
+}
+
+.design button p {
+    font-size: 11px;
+    letter-spacing: 2.4px;
+    color: #ffffff;
+    font-family: "GothamRounded-Medium";
+    margin: 5px 0 0 2px;
+}
