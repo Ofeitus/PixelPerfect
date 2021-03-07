@@ -36,6 +36,10 @@ body {
     margin-right: auto
 }
 
+header h1 {
+    display: none;
+}
+
 .hero {
     height: 745px;
     display: flex;
@@ -184,16 +188,16 @@ body {
 .design {
     position: relative;
     height: 558px;
-    z-index: 2;
     background: #ffffff;
 }
 
 .design__container {
     position: relative;
-    
+    top: 142px;
+    left: 765px;
 }
 
-.design img {
+#iphone5c {
     position: absolute;
     top: 146px;
     left: 124px;
@@ -204,16 +208,15 @@ body {
     letter-spacing: 2.7px;
     color: #16a085;
     font-family: "GothamRounded-Bold";
-    margin-left: 7px;
 }
 
 .design pre {
     font-size: 11px;
     letter-spacing: 2.3px;
-    line-height: 24px;
+    line-height: 22px;
     color: #373737;
     font-family: "GothamRounded-Book";
-    margin: 38px 0 0 6px;
+    margin: 34px 0 0 4px;
 }
 
 .design pre strong {
@@ -227,7 +230,7 @@ body {
     background: #16a085;
     border: none;
     border-radius: 3px;
-    margin: 17px 0 0 7px;
+    margin: 16px 0 0 2px;
 }
 
 .design button p {
@@ -235,5 +238,284 @@ body {
     letter-spacing: 2.4px;
     color: #ffffff;
     font-family: "GothamRounded-Medium";
+    margin-right: 3px;
+}
+
+.design-pages {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    color: #373737;
+    font-family: "GothamRounded-Bold";
+    margin: 44px 0 0 2px;
+}
+
+.design-pages-arrows {
+    width: 43px;
+    display: flex;
+    justify-content: space-between;
     margin: 5px 0 0 2px;
+}
+
+.community {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 484px;
+    background: #f5f6f7;
+}
+
+.community__container {
+    display: flex;
+    margin: 6px 0 0 57px;
+}
+
+.community-info {
+    width: 299px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px 0 10px;
+}
+
+.community-info img {
+    margin-top: 44px;
+}
+
+.community-info h3 {
+    font-size: 17px;
+    letter-spacing: 1.7px;
+    color: #373737;
+    font-family: "GothamRounded-Bold";
+    margin-top: 27px;
+}
+
+.community p {
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    line-height: 12px;
+    color: #373737;
+    font-family: "GothamRounded-Medium";
+    margin: 19px 0 0 4px;
+}
+
+.community-images img {
+    object-fit: fill;
+    width: 370px;
+    height: 244px;
+    margin: 0 10px 0 10px;
+}
+
+.subscribe {
+    height: 790px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(content/subscribeBack.png);
+}
+
+.subscribe__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe h3 {
+    font-size: 24px;
+    letter-spacing: 3.6px;
+    color: #ffffff;
+    font-family: "GothamRounded-Bold";
+    margin: 20px 0 0 4px;
+}
+
+.subscribe-form {
+    display: flex;
+    margin: 29px 0 0 -3px;
+}
+
+.email-field {
+    width: 280px;
+    height: 60px;
+    background-image: url(content/email_form_field.png);
+}
+
+.email-field input {
+    width: 280px;
+    height: 60px;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 2.4px;
+    background: none;
+    font-family: "GothamRounded-Medium";
+    padding-left: 21px;
+}
+
+.email-field input::placeholder {
+    color: #373737;
+}
+
+.email-field input:focus {
+    outline: none;
+    background: none;
+}
+
+.subscribe-button {
+    width: 63px;
+    height: 60px;
+    display: flex;
+    background-image: url(content/email_form_button.png);
+}
+
+.subscribe-button img {
+    object-fit: none;
+    margin: 4px 0 0 2px;
+}
+
+.download {
+    height: 395px;
+    background: #f5f6f7;
+}
+
+.download__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 86px;
+}
+
+.download h3 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #373737;
+    font-family: "GothamRounded-Bold";
+    margin-left: 2px;
+}
+
+.download p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1.8px;
+    line-height: 22px;
+    color: #373737;
+    font-family: "GothamRounded-Medium";
+    margin: 7px 0 0 0;
+}
+
+.download-buttons {
+    display: flex;
+    margin: 41px 0 0 -2px;
+}
+
+.download-buttons p {
+    text-align: start;
+    font-size: 16px;
+    letter-spacing: 2.4px;
+    color: #ffffff;
+    font-family: "GothamRounded-Bold";
+    margin: 20px 0 0 24px;
+}
+
+.applestore-button {
+    display: flex;
+    margin: 0 13px 0 13px;
+}
+
+.applestore {
+    width: 240px;
+    height: 56px;
+    background-image: url(content/download_button1.png);
+}
+
+.applestore p {
+    margin: 20px 0 0 24px;
+}
+
+.applestore-icon {
+    width: 56px;
+    height: 56px;
+    background-image: url(content/download_button2.png);
+}
+
+.applestore-icon img {
+    margin: 16px 0 0 17px;
+}
+
+.playstore-button {
+    display: flex;
+    margin: 0 13px 0 13px;
+}
+
+.playstore {
+    width: 240px;
+    height: 56px;
+    background-image: url(content/download_button1.png);
+}
+
+.playstore p {
+    font-size: 17px;
+    letter-spacing: 3.3px;
+    margin: 18px 0 0 30px;
+}
+
+.playstore-icon {
+    width: 56px;
+    height: 56px;
+    background-image: url(content/download_button2.png);
+}
+
+.playstore-icon img {
+    margin: 14px 0 0 16px;
+}
+
+footer {
+    display: flex;
+    height: 131px;
+    background: #ffff;
+}
+
+.footer__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 126px;
+}
+
+.footer-content {
+    margin-top: 9px;
+}
+
+.links {
+    display: flex;
+}
+
+.links a {
+    font-size: 14px;
+    letter-spacing: 2.2px;
+    color: #373737;
+    font-family: "GothamRounded-Bold";
+    text-decoration: none;
+}
+
+.sep {
+    font-size: 14px;
+    color: #16a085;
+    font-family: "GothamRounded-Bold";
+    margin: 0 8px 0 6px;
+}
+
+.footer-content p {
+    font-size: 14px;
+    letter-spacing: 2.1px;
+    color: #373737;
+    font-family: "GothamRounded-Bold";
+    margin-top: 19px;
+}
+
+#footer-logo {
+    margin-right: 3px;
 }
