@@ -72,6 +72,12 @@ header h1 {
     color: #ffffff;
     font-family: "GothamRounded-Bold";
     text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.navbar__item a:hover {
+    color: #cfcfcf;
+    transition: all 0.3s ease;
 }
 
 .logo {
@@ -109,6 +115,13 @@ header h1 {
     border: none;
     border-radius: 3px;
     margin-top: 25px;
+    transition: all 0.3s ease;
+}
+
+.yourlife button:hover {
+    cursor: pointer;
+    background: #1f8873;
+    transition: all 0.3s ease;
 }
 
 .yourlife button p {
@@ -125,6 +138,13 @@ header h1 {
 
 .socialnetworks img {
     margin: 0 6px;
+    transition: all 0.3s ease;
+}
+
+.socialnetworks img:hover {
+    cursor: pointer;
+    filter: brightness(80%);
+    transition: all 0.3s ease;
 }
 
 .represent {
@@ -175,6 +195,13 @@ header h1 {
     border: none;
     border-radius: 3px;
     margin: 17px 0 0 7px;
+    transition: all 0.3s ease;
+}
+
+.represent button:hover {
+    cursor: pointer;
+    background: #1f8873;
+    transition: all 0.3s ease;
 }
 
 .represent button p {
@@ -231,6 +258,13 @@ header h1 {
     border: none;
     border-radius: 3px;
     margin: 16px 0 0 2px;
+    transition: all 0.3s ease;
+}
+
+.design button:hover {
+    cursor: pointer;
+    background: #1f8873;
+    transition: all 0.3s ease;
 }
 
 .design button p {
@@ -258,6 +292,10 @@ header h1 {
     margin: 5px 0 0 2px;
 }
 
+.design-pages-arrows img:hover {
+    cursor: pointer;
+}
+
 .community {
     display: flex;
     align-items: center;
@@ -268,7 +306,24 @@ header h1 {
 
 .community__container {
     display: flex;
-    margin: 6px 0 0 57px;
+    flex-direction: column;
+    margin: -19px 0 0 57px;
+}
+
+.community-tabs {
+    display: flex;
+}
+
+.community-pages-arrows {
+    width: 38px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
+    margin: 0 9px 9px 0px;
+}
+
+.community-pages-arrows img:hover {
+    cursor: pointer;
 }
 
 .community-info {
@@ -366,12 +421,19 @@ header h1 {
     width: 63px;
     height: 60px;
     display: flex;
-    background-image: url(content/email_form_button.png);
+    border: none;
+    background-color: #16a085;
+    background-image: url("content/email_form_check.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 23px 24px;
+    transition: all 0.3s ease;
 }
 
-.subscribe-button img {
-    object-fit: none;
-    margin: 4px 0 0 2px;
+.subscribe-button:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+    transition: all 0.3s ease;
 }
 
 .download {
@@ -422,6 +484,13 @@ header h1 {
 .applestore-button {
     display: flex;
     margin: 0 13px 0 13px;
+    transition: all 0.3s ease;
+}
+
+.applestore-button:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+    transition: all 0.3s ease;
 }
 
 .applestore {
@@ -447,6 +516,13 @@ header h1 {
 .playstore-button {
     display: flex;
     margin: 0 13px 0 13px;
+    transition: all 0.3s ease;
+}
+
+.playstore-button:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+    transition: all 0.3s ease;
 }
 
 .playstore {
@@ -499,6 +575,12 @@ footer {
     color: #373737;
     font-family: "GothamRounded-Bold";
     text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.links a:hover {
+    color: #888888;
+    transition: all 0.3s ease;
 }
 
 .sep {
